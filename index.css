@@ -1,0 +1,99 @@
+html { 
+    font-size: 20px;
+    background-color: cornsilk;
+    /* background: url(https://icocnews.ru/wp-content/uploads/2015/09/priroda.jpg) no-repeat right ; */
+}
+hr {
+    color: dimgray;
+}
+p i {
+    color: blue;
+}
+p {
+    font-weight: bold;
+    word-spacing: 5px;
+    line-height: 10px;
+    width: calc(100% - 20px);
+}
+p:hover { 
+    background-color: thistle;
+}
+.menu-line {
+    word-spacing: 120px;
+}
+.underline {
+    text-decoration: underline;
+}
+.title {
+    font-size: 30px;
+}
+
+.menu:hover {
+    color: darkgreen;
+}
+.menu:active {
+    color: darkslateblue;
+}
+.menu:visited {
+    color: darkslategray;
+}
+.block1 {
+    border: ghostwhite;
+    border: 2px;
+    width: 100px;
+    height: 50px;
+    margin-left: 20px;
+    margin-top: 20px;
+    padding: 10px;
+    position: relative;
+    top: 50px;
+    right: 30px;
+}
+
+
+/* second html */
+
+.wrapper {
+    display: flex;
+}
+.left, .right {
+    width: 50%;
+    height: 400px;
+}
+.right {
+    background-image: url(https://icocnews.ru/wp-content/uploads/2015/09/priroda.jpg);
+    background-repeat: no-repeat;
+}
+
+.menu {
+    display: flex;
+    list-style: none;
+    padding-left: 0;
+    padding-left: 40px;
+    flex: 3;
+    /* justify-content: space-between; */
+}
+.logo {
+    width: 40px;
+    height: 40px;
+    flex: 1;
+}
+.nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.menu__item {
+    margin-right: 20px;
+}
+.menu__item:last-child {
+    margin-right: 0;
+}
+.nav__left {
+    display: flex;
+    align-items: center;
+}
+
+button {
+    flex: 1;
+}

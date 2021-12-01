@@ -1,0 +1,11 @@
+html {
+    background-color: #ffff;
+    position: absolute;
+    width: 1445px;
+    height: 4759px;
+    font-family: Roboto;
+    font-weight: 400;
+}
+* {
+    box-sizing: border-box;
+}
