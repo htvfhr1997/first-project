@@ -1,0 +1,150 @@
+html {
+    background-color: #ffff;
+    width: 1445px;
+    height: 4759px;
+    font-family: ilroy-Bold;
+    font-weight: 400;
+}
+* {
+    box-sizing: border-box;
+}
+.menu {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    list-style-type: none;
+    margin-left: 80px;
+    margin-right: 80px;
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+.menu_items {
+    font-size: 18px;
+    line-height: 22px;
+    color: #828282;
+}
+.bordergrey{
+    border: 1px; 
+    border-style: solid;
+    color: #828282;
+    margin-left: 100px;
+    margin-right: 80px;
+}
+.menu:hover {
+    color: black;
+}
+.main_name {
+    font-size: 47.3392px;
+    line-height: 59px;
+    color: black;
+    display: inline-block;
+    margin-right: 90px;
+}
+.text_aboutme {
+    font-size: 18px;
+    line-height: 22px;
+}
+.menu_second {
+    display: flex;
+    align-items: center;
+    justify-self: space-between;
+}
+.main_name {
+    margin-left: 100px;
+    margin-right: 40px;
+}
+.text_aboutme {
+    margin-left: 450px;
+}
+.language {
+    margin-right: 300px;
+    margin-left: 540px;
+    transform: rotate(-90deg);
+}
+.mainfoto {
+    width: 943px;
+    height: 387px;
+    margin-left: 250px;
+    object-fit: cover;
+}
+.language_RU {
+    color: #828282;
+}
+.block_two {
+    background-color: #f6f6f6;
+    width: 1600px;
+    height: 506px;
+}
+.heading {
+    font-family: Gilroy-Bold;
+    font-size: 34px;
+    line-height: 42px;
+    text-align: center;
+    margin-right: 200px;
+    padding-top: 100px;
+}
+.heading_information {
+    width: 485.34px;
+    height: 50px;
+    font-size: 18px;
+    line-height: 20px;
+    text-align: center;
+    margin-left: 450px;
+}
+.skills {
+    width: 485.34px;
+    height: 50px;
+    background-color: #ffff;
+}
+.skills_name {
+    font-family: Gilroy-Bold;
+    font-size: 34px;
+    line-height: 42px;
+    text-align: center;
+    margin-left: 600px;
+    padding: 60px;
+    padding-bottom: 10px;
+}
+.skills_text {
+    width: 400px;
+    height: 10px;
+    font-family: Gilroy-Bold;
+    font-size: 18px;
+    line-height: 20px;
+    text-align: center;
+    margin-left: 500px;
+    padding: 5px;
+}
+.skillsprogram {
+    display: flex;
+    align-items: center;
+    justify-self: space-between;
+}
+.skillspic {
+    width: 89px;
+    height: 88px;
+    margin-top: 200px;
+    margin-left: 200px;
+}
+.skillspicname {
+    display: flex;
+    align-items: center;
+    justify-self: space-between;
+    text-align: center;
+    margin-left: 100px;
+    margin-top: 2px;
+}
+.skillsnameprogram {
+    font-size: 14px;
+    line-height: 17px;
+    padding: 100px;
+    padding-top: 10px;
+}
+.rating {
+    font-size: 40px;
+    display: inline-block;
+}
+.reating::before {
+    content:★★★★★;
+    overflow: hidden;
+}
