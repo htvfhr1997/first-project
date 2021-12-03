@@ -130,11 +130,141 @@ html {
     padding: 100px;
     padding-top: 10px;
 }
-.rating {
-    font-size: 40px;
-    display: inline-block;
+.star {
+    width: 1100px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    list-style-type: none;
 }
-.reating::before {
-    content:★★★★★;
-    overflow: hidden;
+.starimg {
+    width: 60px;
+    height: 25px;
+    size: 1px;
+    margin-right: 150px;
+    margin-top: 1px;
+}
+.Portfolio {
+    background-color: #f6f6f6;
+}
+.Portfolioname {
+    font-family: Gilroy-Bold;
+    font-size: 34px;
+    line-height: 42px;
+    text-align: center;
+    padding-top: 100px;
+}
+.Portfolioimg {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 50px;
+    height: 470px;
+    width: 780px;
+}
+.describeportfolio{
+    padding-top: 35px;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+    text-decoration-line: underline;
+}
+.Rebookimg {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 100px;
+    height: 470px;
+    width: 780px;
+}
+.describerebook {
+    padding-top: 35px;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+    text-decoration-line: underline;
+}
+.braunimg {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 100px;
+    height: 470px;
+    width: 780px;
+}
+.describebraun {
+    padding-top: 35px;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+    text-decoration-line: underline;
+}
+.buttondecoration{
+    background-color: black;
+}
+.contractsname{
+    padding-top: 35px;
+    font-size: 34px;
+    line-height: 42px;
+    text-align: center;
+}
+.contractsdescribeone {
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+}
+.contractsdescribetwo {
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+}
+.buttontext {
+    background-color: black;
+    margin-top: 30px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 30px;
+    text-align: center;
+    width: 120px;
+    height: 50px;
+    font-size: 12px;
+    line-height: 22px;
+    color: white;
+}
+.emblems {
+    width: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.emblemsimg {
+    place-content: space-between stretch;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    display: block;
+    margin-left: 250px;
+    margin-right: auto;
+    margin-top: 65px;
+    width: 39px;
+    height: 40px;
+}
+.endtext {
+    font-size: 14px;
+    line-height: 17px;
+    text-align: center;
+    color: #828282;
+    padding: 30px;
+    line-height: 4px;
 }
