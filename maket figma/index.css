@@ -18,6 +18,7 @@ html {
     padding-bottom: 50px;
     padding-left: 0;
     border-bottom: 2px solid black;
+    color: #828282;
 }
 .menu_items {
     font-size: 18px;
@@ -37,6 +38,10 @@ html {
 .text_aboutme {
     font-size: 18px;
     line-height: 22px;
+    margin-bottom: 20px;
+    margin-top: 10px;
+    margin-right: 170px;
+    line-height: 0.1em;
 }
 .menu_second {
     display: flex;
@@ -247,6 +252,7 @@ html {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    padding: 1px;
 }
 .emblemsimg {
     place-content: space-between stretch;
